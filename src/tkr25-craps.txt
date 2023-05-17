@@ -1,0 +1,64 @@
+﻿Assignment name: Assignment 5 craps
+TCSS 305 A: Programming Practicum, Fall 2022
+
+
+Name: Tyler Robinson
+UWNetID: tkr25 
+
+
+Assignment Overview:
+Create a game of craps using java swing GUI.
+
+
+Technical Impression:
+I decided to use a static craps class, as tom suggested, as a possible implementation
+The logic in the model came to me pretty easily since that's the type of code
+I'm most used to working with. I had trouble in the beginning with the GUI
+mostly just brain block because it's not something I'm used to doing. I met with
+Tom and I helped me with a couple of problems I was having getting anything to 
+display. Once he helped me get the die to display,y honestly I felt a lot more 
+confident,t and I was able to work through the rest of the problems myself. I was
+trying to use some of the built-in layout options but found it harder to deal
+with trying to get things in the right place than just setting the bounds for each
+piece individually. I'm not sure if having so many instance fields was the right
+way to go, but I felt it was the only way I should be gathering information from 
+the model is through instance fields in the view. Also, I felt anything getting updated
+needed to be an instance field because that was the only way to add listeners
+in another method than the method creating each panel. I had the initial idea 
+to use a separate method for the point roll than the initial roll and confirmed with
+Tom, it was an ok idea to use two buttons to help control the state of the game
+as opposed to the one roll button. Using a Joptionpane for the input for the bank 
+was something I had to look up a little on the internet because we weren't 
+provided an example like that, but to me, it was a good idea, so there isn't any
+setting or messing with the bank, outside when the joptionpane method is called. 
+Figuring out how to restart the game when the bank was empty was something 
+that took longer than it should have. My final solution was pretty simple just 
+checking when the roll buttons are pressed, but I spent a lot of time trying to 
+fire a property change when it was unnessisarry. I really spent a lot of time
+and put a lot of energy into this product and i hope it shows. 
+
+
+Unresolved problems in my submission:
+
+I kept a bunch of magic number and repeated strings. I felt like i was already
+using too many static field but maybe i should have made more for everything.
+
+
+Citations and Collaborations:
+I used the bookstore assignment text box focus listener.
+I used stack overflow for some help with the Joptionpanes. 
+
+Extra Credit Attempted:
+i tried to get the dice to draw new pictures and I tried to make music play but 
+wasn't successful. 
+
+On the music i'm pretty sure i did everything right just couldn't find a correct wav file
+that was supported. I found wav music files but it gave an error message that the ones 
+i had wasn't supported. 
+
+I added my shortcuts to the about bar so you can see all the shortcuts. 
+I put in a lot of time to keep the code tidy and the finished product looking
+good. 
+
+Questions:
+none
